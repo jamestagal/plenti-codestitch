@@ -1,0 +1,60 @@
+{
+	"components": [
+		{
+			"name": "banner_712",
+			"fields": {
+				"title": "Contact Us",
+				"image": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "pills"
+				},
+				"imageM": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "pills"
+				}
+			}
+		},
+		{
+			"name": "contact_265",
+			"fields": {
+				"title": "Contact",
+				"subtitle": "Get in Touch",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.",
+				"formFields": {
+					"name": "Name",
+					"email": "Email",
+					"phone": "Phone",
+					"reason": "How did you find us?",
+					"message": "Message"
+				},
+				"button": {
+					"title": "Submit Message",
+					"link": "."
+				},
+				"imageM": {
+					"url": "media/img/skyscraper-m.jpeg",
+					"alt": "building"
+				},
+				"image": {
+					"url": "media/img/skyscraper.jpeg",
+					"alt": "building"
+				},
+				"contactInfo": {
+					"email": {
+						"title": "Email",
+						"address": "support@yourdomain.com"
+					},
+					"phone": {
+						"title": "Phone",
+						"number": "(219) 555-1234"
+					},
+					"address": {
+						"title": "Address",
+						"line1": "2553 Woodbridge Lane,",
+						"line2": "Boston Ware 120"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"build": "public",
+	"routes": {
+		"pages": ":filename"
+	},
+	"local": {
+		"port": 3000
+	}
+}

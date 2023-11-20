@@ -1,0 +1,266 @@
+{
+	"components": [
+		{
+			"name": "hero_81",
+			"fields": {
+				"title": "Construction & Maintenance Experts in New York City",
+				"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis donec eget tellus turpis imperdiet aenean libero.",
+				"link": {
+					"title": "Request Appointment",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/kitchen.jpeg",
+					"alt": "A kitchen"
+				},
+				"image_m": {
+					"url": "media/img/kitchen-m.jpeg",
+					"alt": "A kitchen"
+				}
+			}
+		},
+		{
+			"name": "services_81",
+			"fields": {
+				"service1": {
+					"title": "FULL KITCHEN REMODEL",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/toolbox.svg",
+						"alt": "toolbox icon"
+					}
+				},
+				"service2": {
+					"title": "EXTERIOR REPAIRS",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "building icon"
+					}
+				},
+				"service3": {
+					"title": "UTILITY MAINTENANCE",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/gear.svg",
+						"alt": "gear icon"
+					}
+				}
+			}
+		},
+		{
+			"name": "about",
+			"fields": {
+				"subtitle": "WHO WE ARE",
+				"title": "Stitch Painting Services",
+				"description": [
+					{
+						"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+					},
+					{
+						"paragraph": " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+					}
+				],
+				"image": {
+					"url": "media/img/room.jpeg",
+					"alt": "A kitchen"
+				},
+				"link": {
+					"title": "Get Free Quote",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "service_highlight_580",
+			"fields": {
+				"subtitle": "What We Do",
+				"title": "House Painting Contractors For Oak Harbor",
+				"description": [
+					{
+						"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+					},
+					{
+						"paragraph": " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+					}
+				],
+				"image": {
+					"url": "media/img/room.jpeg",
+					"alt": "A kitchen"
+				},
+				"link": {
+					"title": "Get Free Quote",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "gallery_453",
+			"fields": {
+				"title": "PORTFOLIO",
+				"subtitle": "Our Gallery",
+				"gallery1": {
+					"category": "one",
+					"image1": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					}
+				},
+				"gallery2": {
+					"category": "two",
+					"image1": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					}
+				},
+				"gallery3": {
+					"category": "three",
+					"image1": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					}
+				}
+			}
+		},
+		{
+			"name": "meet_team_221",
+			"fields": {
+				"title": "MEET THE TEAM",
+				"subtitle": "The People Behind CodeStitch",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.",
+				"cards": [
+					{
+						"name": "John Doe",
+						"title": "Founder",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of John Doe"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					},
+					{
+						"name": "Rusty Shackleford",
+						"title": "CMO",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of Rusty Shackleford"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					},
+					{
+						"name": "Joe Shmo",
+						"title": "CFO",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of Joe Shmo"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					}
+				],
+				"socialIcon": {
+					"x": "media/svg/twitter-grey.svg",
+					"linkedin": "media/svg/linkedin-grey.svg"
+				},
+				"button": {
+					"title": "Read More",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "reviews_727",
+			"fields": {
+				"title": "TESTIMONIALS",
+				"subtitle": "Trusted by Thousand of People & Companies",
+				"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+				"review1": {
+					"name": "Daniel",
+					"title": "Loving the color!",
+					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				},
+				"review2": {
+					"name": "Bill",
+					"title": "Affordable",
+					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				},
+				"icon": {
+					"url": "media/svg/yellow-quote.svg",
+					"alt": "yellow quote icon"
+				}
+			}
+		},
+		{
+			"name": "cta_51",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		}
+	],
+	"meta": {
+		"title": "Code Stitch Starter",
+		"desc": "A template for the Build-Time Render Engine Plenti",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
+}

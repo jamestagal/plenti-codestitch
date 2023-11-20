@@ -1,0 +1,97 @@
+{
+	"components": [
+		{
+			"name": "banner_712",
+			"fields": {
+				"title": "About Us",
+				"image": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "pills"
+				},
+				"imageM": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "pills"
+				}
+			}
+		},
+		{
+			"name": "sidebyside_578",
+			"fields": {
+				"subtitle": "What We Do",
+				"title": "House Painting Contractors For Oak Harbor",
+				"description": [
+					{
+						"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+					},
+					{
+						"paragraph": " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+					}
+				],
+				"image": {
+					"url": "media/img/room.jpeg",
+					"alt": "A kitchen"
+				},
+				"link": {
+					"title": "Get Free Quote",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "whychoose_12",
+			"fields": {
+				"title": "EXPERIENCED",
+				"subtitle": "Why Choose Us?",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam earum rerum sunt officia quas adipisci. Nulla, dolor dignissimos qui laboriosam, asperiores aliquam soluta voluptatum, dolorem dolores minima delectus quas nam?",
+				"reason1": {
+					"title": "EXPERIENCED STAFF",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/sheild.svg",
+						"alt": "sheild icon"
+					}
+				},
+				"reason2": {
+					"title": "OWN OUR EQUIPMENT",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/toolbox.svg",
+						"alt": "toolbox icon"
+					}
+				},
+				"reason3": {
+					"title": "LICENSED & INSURED",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/ribbon.svg",
+						"alt": "ribbon icon"
+					}
+				},
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "cta_51",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		}
+	]
+}

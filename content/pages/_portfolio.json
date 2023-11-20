@@ -1,0 +1,141 @@
+{
+	"components": [
+		{
+			"name": "banner_712",
+			"fields": {
+				"title": "Portfolio",
+				"image": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "A kitchen"
+				},
+				"imageM": {
+					"url": "media/img/images_MISC_pills.jpeg",
+					"alt": "A kitchen"
+				}
+			}
+		},
+		{
+			"name": "gallery_48",
+			"fields": {
+				"title": "Our Portfolio",
+				"subtitle": "Et orci volutpat, back up generator installations",
+				"row1": {
+					"picture1": {
+						"image": {
+							"url": "media/img/port1.jpeg",
+							"alt": "new hallway"
+						},
+						"imageM": {
+							"url": "media/img/port1-m.jpeg",
+							"alt": "new hallway"
+						}
+					},
+					"picture2": {
+						"image": {
+							"url": "media/img/port4.jpeg",
+							"alt": "new home construction"
+						},
+						"imageM": {
+							"url": "media/img/port4-m.jpeg",
+							"alt": "new home construction"
+						}
+					},
+					"picture3": {
+						"image": {
+							"url": "media/img/port7.jpeg",
+							"alt": "building a new wall"
+						},
+						"imageM": {
+							"url": "media/img/port7-m.jpeg",
+							"alt": "building a new wall"
+						}
+					}
+				},
+				"row2": {
+					"picture1": {
+						"image": {
+							"url": "media/img/port2.jpeg",
+							"alt": "new kitchen"
+						},
+						"imageM": {
+							"url": "media/img/port2-m.jpeg",
+							"alt": "new kitchen"
+						}
+					},
+					"picture2": {
+						"image": {
+							"url": "media/img/port5.jpeg",
+							"alt": "apartment addition"
+						},
+						"imageM": {
+							"url": "media/img/port5-m.jpeg",
+							"alt": "apartment addition"
+						}
+					},
+					"picture3": {
+						"image": {
+							"url": "media/img/port8.jpeg",
+							"alt": "kew kitchen cabinets"
+						},
+						"imageM": {
+							"url": "media/img/port8-m.jpeg",
+							"alt": "kew kitchen cabinets"
+						}
+					}
+				},
+				"row3": {
+					"picture1": {
+						"image": {
+							"url": "media/img/port3.jpeg",
+							"alt": "new black window structure"
+						},
+						"imageM": {
+							"url": "media/img/port3-m.jpeg",
+							"alt": "new black window structure"
+						}
+					},
+					"picture2": {
+						"image": {
+							"url": "media/img/port6.jpeg",
+							"alt": "kitchen rebovation"
+						},
+						"imageM": {
+							"url": "media/img/port6-m.jpeg",
+							"alt": "kitchen rebovation"
+						}
+					},
+					"picture3": {
+						"image": {
+							"url": "media/img/port9.jpeg",
+							"alt": "bathroom renovation"
+						},
+						"imageM": {
+							"url": "media/img/port9-m.jpeg",
+							"alt": "bathroom renovation"
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "cta_51",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		}
+	]
+}
