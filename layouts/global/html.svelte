@@ -5,7 +5,7 @@
   import Header from "./header.svelte";
   import Footer from "./footer.svelte";
 
-  export let content, layout, allContent, allLayouts, user;
+  export let content, layout, allContent, allLayouts, user, env;
   let hash;
   onMount(async () => {
     hash = window.location.hash;
@@ -14,7 +14,7 @@
 </script>
 
 <html lang="en">
-  <Head title={content.filename} />
+  <Head title={content.filename} {env} />
   <body>
     <!--Screen reader skip main nav-->
     <a class="skip" aria-label="skip to main content" href="#main"

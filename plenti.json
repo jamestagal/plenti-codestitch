@@ -3,6 +3,8 @@
 	"routes": {
 		"pages": ":filename"
 	},
+	"entrypoint_js": ":fingerprint",
+	"baseurl": "/codestitch/",
 	"local": {
 		"port": 3000
 	}

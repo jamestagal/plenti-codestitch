@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <base href="{env.baseurl}" /> -->
+  <base href="{env.baseurl}" />
   <!--Swap our for actual link-->
   <link rel="canonical" href="https://www.website.com/" />
 
@@ -48,10 +48,9 @@
 
   <title>{title} | CodeStitch</title>
   <!-- <base href={env.baseurl} /> -->
-  <script type="module" src="spa/core/main.js"></script>
-
+  <script type="module" src={`/${env.entrypointJS}/core/main.js`}></script>
+  <link rel='stylesheet' href={`/${env.entrypointJS}/bundle.css`}>
   <link rel="icon" type="image/svg+xml" href="media/logo.svg" />
-  <link rel="stylesheet" href="spa/bundle.css" />
   <link rel="stylesheet" href="global.css" />
   <link
     rel="preload"
