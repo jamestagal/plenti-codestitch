@@ -1906,4 +1906,703 @@
     width: 100%;
     object-fit: cover;
   }
+
+      /*-- -------------------------- -->
+<---       Why Choose Us        -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #why-choose-12 {
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+  }
+  #why-choose-12 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #why-choose-12 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #why-choose-12 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.75rem;
+  }
+  #why-choose-12 .cs-item {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    max-width: 22.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  #why-choose-12 .cs-picture {
+    /* 68px - 88px */
+    width: clamp(4.25rem, 7vw, 5.5rem);
+    height: clamp(4.25rem, 7vw, 5.5rem);
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #why-choose-12 .cs-picture img {
+    width: auto;
+    height: 2.625rem;
+    display: block;
+  }
+  #why-choose-12 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    text-align: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--headerColor);
+  }
+  #why-choose-12 .cs-item-text {
+    font-size: 1rem;
+    text-align: inherit;
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-12 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #why-choose-12 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #why-choose-12 .cs-title,
+  body.dark-mode #why-choose-12 .cs-h3,
+  body.dark-mode #why-choose-12 .cs-item-text,
+  body.dark-mode #why-choose-12 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #why-choose-12 .cs-picture {
+    background: var(--primary);
+  }
+}
+
+  /*-- -------------------------- -->
+<---          Contact           -->
+<--- -------------------------- -*/
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0rem) {
+    #cs-contact-265 {
+      padding: var(--sectionPadding);
+    }
+    #cs-contact-265 .cs-container {
+      width: 100%;
+      /* changes to 1280px at tablet */
+      max-width: 34.375rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
+    }
+    #cs-contact-265 .cs-content {
+      /* set text align to left if content needs to be left aligned */
+      text-align: left;
+      width: 100%;
+      margin: 0 0 2rem 0;
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: flex-start;
+    }
+    #cs-contact-265 #cs-form-265 label {
+      font-size: 1rem;
+      line-height: 1.5em;
+      font-weight: 700;
+      /* 12px - 20px */
+      margin-bottom: clamp(0.75rem, 1.3em, 1.25rem);
+      color: var(--headerColor);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    #cs-contact-265 #cs-form-265 .cs-label-message {
+      /* 32px - 48px */
+      margin-bottom: clamp(2rem, 6.3vw, 3rem);
+    }
+    #cs-contact-265 #cs-form-265 input,
+    #cs-contact-265 #cs-form-265 textarea {
+      font-size: 1rem;
+      width: 100%;
+      height: 4rem;
+      margin-top: 0.25rem;
+      padding-left: 1.25rem;
+      border: 1px solid #b4b2c7;
+      border-radius: 0.25rem;
+      /* prevents border & padding from affecting height */
+      box-sizing: border-box;
+      transition: border 0.3s;
+    }
+    #cs-contact-265 #cs-form-265 input:hover,
+    #cs-contact-265 #cs-form-265 textarea:hover {
+      border: 1px solid var(--primary);
+    }
+    #cs-contact-265 #cs-form-265 textarea {
+      font-family: inherit;
+      padding-top: 1.25rem;
+      min-height: 7.5rem;
+    }
+    #cs-contact-265 #cs-form-265 .cs-button-solid {
+      width: 100%;
+    }
+    #cs-contact-265 .cs-submit {
+      width: 100%;
+      border: none;
+    }
+    #cs-contact-265 .cs-submit:hover {
+      cursor: pointer;
+    }
+    #cs-contact-265 .cs-right-section {
+      width: 100%;
+      height: 20rem;
+      /* 24px - 40px top & bottom */
+      /* 20px - 40px left & right */
+      padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1.25rem, 3vw, 2.5rem);
+      /* prevents padding from affecting height and width */
+      box-sizing: border-box;
+      border-radius: 0.25rem;
+      /* cuts off corners on img tag */
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      position: relative;
+    }
+    #cs-contact-265 .cs-header {
+      /* 16px - 20px */
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      line-height: 1.2em;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--bodyTextColorWhite);
+      display: block;
+    }
+    #cs-contact-265 .cs-link {
+      /* 16px - 20px */
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      line-height: 1.2em;
+      text-decoration: none;
+      margin-bottom: 1.25rem;
+      color: var(--bodyTextColorWhite);
+      display: block;
+      position: relative;
+    }
+    #cs-contact-265 .cs-link:before {
+      /* Animated underline */
+      content: "";
+      width: 0%;
+      height: 2px;
+      /* current color of the parent */
+      background: currentColor;
+      opacity: 1;
+      position: absolute;
+      display: block;
+      bottom: -0.125rem;
+      left: 0;
+      transition: width 0.3s;
+    }
+    #cs-contact-265 .cs-link:hover:before {
+      width: 100%;
+    }
+    #cs-contact-265 .cs-link:last-of-type {
+      margin-bottom: 0;
+    }
+    #cs-contact-265 .cs-block {
+      /* sends second address line to the bottom on its own line */
+      display: block;
+    }
+    #cs-contact-265 .cs-bg-picture {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: transform 0.6s;
+    }
+    #cs-contact-265 .cs-bg-picture:before {
+      /* background color overlay */
+      content: "";
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    #cs-contact-265 .cs-bg-picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      /* Makes img tag act as a background image */
+      object-fit: cover;
+    }
+  }
+  /* Tablet - 700px */
+  @media only screen and (min-width: 43.75rem) {
+    #cs-contact-265 .cs-container {
+      max-width: 80rem;
+    }
+    #cs-contact-265 #cs-form-265 {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    #cs-contact-265 #cs-form-265 label {
+      width: 48%;
+    }
+    #cs-contact-265 #cs-form-265 .cs-label-message {
+      width: 100%;
+    }
+  }
+  /* Small Desktop - 1024px */
+  @media only screen and (min-width: 64rem) {
+    #cs-contact-265 .cs-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 5rem;
+    }
+    #cs-contact-265 .cs-left-section {
+      max-width: 39.375rem;
+    }
+    #cs-contact-265 #cs-form-265 label {
+      width: 100%;
+    }
+    #cs-contact-265 .cs-right-section {
+      /* changes to 578px at 1300px wide */
+      height: 42.875rem;
+      width: 40vw;
+      max-width: 33.875rem;
+      /* prevents flexbox from squishing it */
+      flex: none;
+    }
+    #cs-contact-265 .cs-right-section:hover .cs-bg-picture {
+      transform: scale(1.1);
+    }
+    #cs-contact-265 .cs-block {
+      /* goes back to inline so it stays "in line" with the rest of the text */
+      display: inline-block;
+    }
+  }
+  /* Small Desktop - 1300px */
+  @media only screen and (min-width: 81.25rem) {
+    #cs-contact-265 #cs-form-265 {
+      column-gap: 0rem;
+    }
+    #cs-contact-265 #cs-form-265 label {
+      width: 48%;
+      max-width: 19.0625rem;
+    }
+    #cs-contact-265 #cs-form-265 .cs-label-message {
+      max-width: 100%;
+    }
+    #cs-contact-265 .cs-right-section {
+      height: 36.125rem;
+    }
+  }
+
+   /*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #gallery-48 {
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #gallery-48 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #gallery-48 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #gallery-48 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #gallery-48 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #gallery-48 .cs-title {
+    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+    margin: 0;
+    max-width: 20ch;
+  }
+  #gallery-48 .cs-image-group {
+    /* used rem so it doesn't scale with the font size of on parent */
+    font-size: min(1.1vw, 1em);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* 8px - 20px */
+    gap: clamp(0.5rem, 2vw, 1.25rem);
+  }
+  #gallery-48 .cs-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* 8px - 20px */
+    gap: clamp(0.5rem, 2vw, 1.25rem);
+  }
+  #gallery-48 .cs-picture {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  #gallery-48 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #gallery-48 .cs-row-1 .cs-picture-1 {
+    height: 35.4375em;
+  }
+  #gallery-48 .cs-row-1 .cs-picture-2 {
+    height: 39.3125em;
+  }
+  #gallery-48 .cs-row-1 .cs-picture-3 {
+    height: 32em;
+  }
+  #gallery-48 .cs-row-2 .cs-picture-1 {
+    height: 30.75em;
+  }
+  #gallery-48 .cs-row-2 .cs-picture-2 {
+    height: 32.3125em;
+  }
+  #gallery-48 .cs-row-2 .cs-picture-3 {
+    height: 39.3125em;
+  }
+  #gallery-48 .cs-row-3 .cs-picture-1 {
+    height: 39.0625em;
+  }
+  #gallery-48 .cs-row-3 .cs-picture-2 {
+    height: 28.25em;
+  }
+  #gallery-48 .cs-row-3 .cs-picture-3 {
+    height: 39.3125em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #gallery-48 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+}
+
+    /*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #reviews-607 {
+    padding: var(--sectionPadding);
+  }
+  #reviews-607 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #reviews-607 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-607 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  #reviews-607 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    /* 32px - 48px top & bottom */
+    /* 16px - 32px left & right */
+    padding: clamp(2rem, 7vw, 3rem) clamp(1rem, 4vw, 2rem);
+    /* makes padding not affect height and width */
+    box-sizing: border-box;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #reviews-607 .cs-icon {
+    /* 30px - 40px */
+    width: clamp(1.875rem, 4vw, 2.5rem);
+    height: auto;
+    margin: 0 0 2rem 0;
+    display: block;
+  }
+  #reviews-607 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 4vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: var(--headerColor);
+  }
+  #reviews-607 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 4vw, 1rem);
+    line-height: 1.5em;
+    max-width: 24.25rem;
+    margin: 0 0 3rem 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-607 .cs-name {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: auto 0 0 0;
+    color: var(--headerColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+  #reviews-607 .cs-name:before {
+    content: '';
+    width: 0.5rem;
+    height: 1px;
+    background: currentColor;
+    display: block;
+    position: relative;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-607 .cs-container {
+    max-width: 80rem;
+  }
+  #reviews-607 .cs-card-group {
+    /* we went grid on tablet so that we can have an even spaced section with this design. Flexbox has a hard time making this type of design work with even gaps. */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #reviews-607 .cs-item {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #reviews-607 .cs-card-group {
+    /* went back to flexbox for an easier transition to this horizontal layout. We don't have to re-target each cs-item to reset its grid positioning, we can just revert to flexbox and make the layout in less code and hassle */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+  }
+  #reviews-607 .cs-item {
+    width: clamp(31.5%, 30.93vw, 32.29%);
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-607 .cs-title,
+  body.dark-mode #reviews-607 .cs-text,
+  body.dark-mode #reviews-607 .cs-h3,
+  body.dark-mode #reviews-607 .cs-name,
+  body.dark-mode #reviews-607 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #reviews-607 .cs-text,
+  body.dark-mode #reviews-607 .cs-item-text {
+    opacity: .8;
+  }
+  body.dark-mode #reviews-607 .cs-item {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+ /*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0rem) {
+    #sbs-578 .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 7vw, 4rem);
+    }
+    #sbs-578 .cs-content {
+      /* set text aling to left if content needs to be left aligned */
+      text-align: left;
+      width: 100%;
+      max-width: 32.625rem;
+      /* moved section padding to the .cs-content so we can have the cs-picture be full width on mobile without the padding preventing it from doing so */
+      padding: var(--sectionPadding);
+      padding-top: 0;
+      /* prevents padding from affecting width and height */
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: flex-start;
+    }
+    #sbs-578 .cs-text {
+      /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
+      margin-bottom: 1rem;
+    }
+    #sbs-578 .cs-text:last-of-type {
+      margin-bottom: 2rem;
+    }
+    #sbs-578 .cs-picture {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 18.75rem;
+    }
+    #sbs-578 .cs-picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48rem) {
+    #sbs-578 {
+      padding: var(--sectionPadding);
+    }
+    #sbs-578 .cs-container {
+      flex-direction: row;
+      justify-content: flex-start;
+      /* 60px - 128px */
+      gap: clamp(3.75rem, 10vw, 8rem);
+    }
+    #sbs-578 .cs-content {
+      width: 53%;
+      /* reset the padding, add the section padding back to the section container */
+      padding: 0;
+    }
+    #sbs-578 .cs-picture {
+      width: 47vw;
+      max-width: 30.875rem;
+      /* 518px - 700px */
+      height: clamp(32.375rem, 63vw, 43.75rem);
+      /* 16px - 28px, added margin left and bottom to cs-picture so it pushes away by the same amount the yellow box element overlaps it left and bottom. This maintains consistent spacing left and bottom */
+      margin: 0 0 clamp(1rem, 2.4vw, 1.75rem) clamp(1rem, 2.4vw, 1.75rem);
+      position: relative;
+    }
+    #sbs-578 .cs-picture:before {
+      /* yellow box */
+      content: "";
+      width: 50%;
+      height: 60%;
+      background: var(--secondary);
+      opacity: 1;
+      display: block;
+      position: absolute;
+      /* 16px - 28px, wrapped in calc function to multiple by negative 1 and get a negative clamp value */
+      bottom: calc(clamp(1rem, 2.4vw, 1.75rem) * -1);
+      left: calc(clamp(1rem, 2.4vw, 1.75rem) * -1);
+    }
+  }
 }
