@@ -256,6 +256,26 @@
 					"alt": "kitchen cabinets"
 				}
 			}
+		},
+		{
+			"name": "lightbox",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
 		}
 	],
 	"meta": {

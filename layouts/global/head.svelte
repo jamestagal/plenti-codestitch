@@ -47,9 +47,10 @@
   <meta name="theme-color" content="#ffffff" />
 
   <title>{title} | CodeStitch</title>
-  <!-- <base href={env.baseurl} /> -->
+  <base href={env.baseurl} />
   <script type="module" src={`${env.entrypointJS}/core/main.js`}></script>
   <link rel='stylesheet' href={`${env.entrypointJS}/bundle.css`}>
+  <script src="js/lightbox.js" type="module"></script>
   <link rel="icon" type="image/svg+xml" href="media/logo.svg" />
   <link rel="stylesheet" href="global.css" />
   <link

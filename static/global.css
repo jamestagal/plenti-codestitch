@@ -2606,3 +2606,222 @@
     }
   }
 }
+
+
+ /*-- ---------------------------------- -->
+    <---          Lightbox Gallery          -->
+    <--- ---------------------------------- -*/
+
+    /*---- Buttons ----*/
+
+    .lightbox-btn {
+      width: 2.2em;
+      height: 2.2em;
+      position: absolute;
+      border-radius: 50%;
+      transition: all 0.3s;
+      background-color: #000;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .lightbox-btn:disabled {
+      cursor: initial;
+      background-color: #adadad;
+  }
+
+  .lightbox-btn-close {
+      top: -2em;
+      right: -1.7em;
+      background-size: 100%;
+      background-image: url('media/svg/icon-lightbox-close.svg');
+  }
+
+  .lightbox-btn-next,
+  .lightbox-btn-previous {
+      top: calc(50% - (2.2em / 2));
+      background-size: 100%;
+      background-image: url('media/svg/icon-lightbox-arrow.svg');
+  }
+
+  .lightbox-btn-previous {
+      left: -1.5em;
+      transform: rotate(180deg);
+  }
+
+  .lightbox-btn-next {
+      right: -1.5em;
+  }
+
+  /*---- Animations ----*/
+
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+
+      to {
+          opacity: 1;
+      }
+  }
+
+  @keyframes fadeOut {
+      from {
+          opacity: 1;
+      }
+
+      to {
+          opacity: 0;
+      }
+  }
+
+  @keyframes createBox {
+      from {
+          transform: scale(0);
+      }
+
+      to {
+          transform: scale(1);
+      }
+  }
+
+  @keyframes deleteBox {
+      from {
+          transform: scale(1);
+      }
+
+      to {
+          transform: scale(0);
+      }
+  }
+
+
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0rem) {
+      #lightbox-gallery  {
+          padding: var(--sectionPadding);
+      }
+
+      #lightbox-gallery .cs-container {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(3rem,6vw,4rem)
+    }
+
+    #lightbox-gallery .cs-content {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    #lightbox-gallery .cs-title {
+        max-width: 20ch
+    }
+      .lightbox-content {
+          text-align: center;
+      }
+
+      .lightbox-content img {
+          max-width: 100%;
+          height: auto;
+      }
+
+      .gallery-item img {
+          max-width: 100%;
+          border-radius: 8px;
+          transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+      }
+
+      .gallery-item img:hover {
+          transform: scale(1.02);
+          filter: drop-shadow(0px 5px 4px #00000054);
+      }
+
+      .remove-scroll {
+          overflow: hidden;
+      }
+
+      .lightbox-hide {
+          top: -9999px;
+          left: -9999px;
+          position: absolute;
+          visibility: hidden;
+      }
+
+      .gallery {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          justify-items: center;
+          row-gap: 0.5rem;
+      }
+
+      .lightbox-container {
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 2em;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          position: fixed;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(29, 29, 29);
+          background-color: rgba(29, 29, 29, 0.8);
+          z-index: 99999;
+      }
+
+      .lightbox-wrapper {
+          position: relative;
+      }
+
+      .lightbox-image {
+          max-height: 100vh;
+          vertical-align: middle;
+      }
+  }
+
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48rem) {
+      .gallery {
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 10px;
+      }
+
+      .lightbox-btn-previous {
+          left: .5em;
+      }
+
+      .lightbox-btn-next {
+          right: .5em;
+      }
+  }
+
+  /* Small Desktop - 1024px */
+  @media only screen and (min-width: 64rem) {
+      .gallery {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          max-width: 80rem;
+          margin: auto;
+      }
+
+      .lightbox-wrapper {
+          max-width: 75%;
+      }
+  }
+
+  /* Desktop - 1280px */
+  @media only screen and (min-width: 80rem) {
+      .lightbox-wrapper {
+          max-width: 50%;
+      }
+
+  }
