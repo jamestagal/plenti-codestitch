@@ -4,7 +4,7 @@
 		"pages": ":filename"
 	},
 	"entrypoint_js": ":fingerprint",
-	"baseurl": "/codestitch/",
+	"baseurl": "/plenti-codestitch/",
 	"local": {
 		"port": 3000
 	}
