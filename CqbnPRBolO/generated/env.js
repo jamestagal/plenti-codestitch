@@ -1,1 +1,0 @@
-export let env={local:!1,baseurl:"/codestitch/",entrypointHTML:"global/html.svelte",entrypointJS:"CqbnPRBolO",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
